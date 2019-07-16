@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_to_alc_4_0"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        android:layout_marginTop="25dp"
+        android:layout_marginBottom="130dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <Button
+        android:id="@+id/about_alc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/about_alc"
+        android:textSize="20sp"
+        android:hapticFeedbackEnabled="true"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/textView"
+        android:layout_marginBottom="29dp"
+        android:padding="15dp"/>
+
+    <Button
+        android:id="@+id/my_profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_alc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:padding="15dp"
+        android:text="@string/my_profile"
+        android:textSize="20sp" />
+</RelativeLayout>
