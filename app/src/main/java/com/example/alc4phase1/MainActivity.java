@@ -35,12 +35,12 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
-    public void openAboutALC(){
+    private void openAboutALC(){
         Intent intent = new Intent(this, AboutALCActivity.class);
         startActivity(intent);
     }
 
-    public void openMyProfile(){
+    private void openMyProfile(){
         Intent intent = new Intent(this, MyProfileActivity.class);
         startActivity(intent);
     }

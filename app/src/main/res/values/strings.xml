@@ -4,10 +4,5 @@
     <string name="about_alc">About ALC</string>
     <string name="my_profile">My Profile</string>
     <string name="name"><br>David Dada</br></string>
-    <string name="track"><br>Track: Android</br></string>
-    <string name="country">Country: Nigeria</string>
-    <string name="email">Email: daveproxy80@gmail.com</string>
-    <string name="phone_number">Phone Number: +2347053702976</string>
-    <string name="slack_username">Slack Username: David Dada</string>
     <string name="photo">A photo</string>
 </resources>
