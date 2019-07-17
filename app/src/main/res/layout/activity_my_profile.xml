@@ -10,57 +10,56 @@
     <RelativeLayout
         android:id="@+id/photoView_textView"
         android:layout_width="match_parent"
-        android:layout_height="315dp">
+        android:layout_height="320dp">
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@id/photo"
+            android:layout_alignTop="@+id/photo"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="216dp"
             android:text="@string/name"
-            android:textSize="30sp" />
+            android:textSize="25sp" />
 
         <ImageView
             android:id="@+id/photo"
-            android:layout_width="258dp"
-            android:layout_height="204dp"
+            android:layout_width="196dp"
+            android:layout_height="196dp"
             android:layout_centerInParent="true"
             android:contentDescription="@string/photo"
-            android:focusableInTouchMode="true"
-            android:longClickable="true"
-            android:rotation="270"
+            android:rotation="0"
             android:saveEnabled="true"
             android:scaleType="centerCrop"
-            android:src="@drawable/daviddada"/>
+            android:src="@drawable/daviddada" />
 
     </RelativeLayout>
 
     <View
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="7dp"
         android:layout_width="match_parent"
         android:layout_height="2dp"
         android:background="@color/black"/>
 
     <LinearLayout
         android:id="@+id/personal_data"
-        android:layout_width="394dp"
-        android:layout_height="333dp"
+        android:layout_width="match_parent"
+        android:layout_height="291dp"
         android:orientation="vertical">
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="22dp"
+            android:layout_marginTop="18dp"
             android:text="Track:    Android"
+            android:scrollbarAlwaysDrawVerticalTrack="true"
             android:textSize="22sp" />
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:text="Country:   Nigeria"
             android:textSize="22sp" />
 
@@ -68,7 +67,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:text="Email:    daveproxy80@gmail.com"
             android:textSize="22sp" />
 
@@ -76,15 +75,15 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="25dp"
-            android:text="Phone Number:     +2347053702976"
+            android:layout_marginTop="20dp"
+            android:text="Phone Number:    +2347053702976"
             android:textSize="22sp" />
 
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="16dp"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="20dp"
             android:text="Slack Username:    David Dada"
             android:textSize="22sp" />
     </LinearLayout>
