@@ -14,7 +14,7 @@
         android:layout_height="wrap_content"
         android:text="@string/welcome_to_alc_4_0"
         android:layout_centerHorizontal="true"
-        android:textSize="40sp"
+        android:textSize="35sp"
         android:textStyle="bold"
         android:layout_marginTop="25dp"
         android:layout_marginBottom="130dp"

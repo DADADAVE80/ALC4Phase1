@@ -27,6 +27,7 @@ public class AboutALCActivity extends AppCompatActivity {
         mWebView = (WebView) findViewById(R.id.webview_about_alc);
         WebSettings webSettings = mWebView.getSettings();
         webSettings.supportZoom();
+        mWebView.getSettings().setJavaScriptEnabled(true);
         mWebView.getSettings().setDatabaseEnabled(true);
         mWebView.getSettings().setDomStorageEnabled(true);
         mWebView.getSettings().setBuiltInZoomControls(true);
