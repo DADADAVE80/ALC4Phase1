@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         Button button;
 
         //Method for initializing About ALC button
-        button = (Button) findViewById(R.id.about_alc);
+        button = findViewById(R.id.about_alc);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
         //Method for initializing My Profile button
-        button = (Button) findViewById(R.id.my_profile);
+        button = findViewById(R.id.my_profile);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
